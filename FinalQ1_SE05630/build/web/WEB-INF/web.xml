@@ -4,9 +4,17 @@
         <servlet-name>StudentServlet</servlet-name>
         <servlet-class>controller.StudentServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>StudentServletUseJSP</servlet-name>
+        <servlet-class>controller.StudentServletUseJSP</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>StudentServlet</servlet-name>
         <url-pattern>/StudentServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>StudentServletUseJSP</servlet-name>
+        <url-pattern>/StudentServletUseJSP</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
