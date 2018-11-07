@@ -15,7 +15,9 @@
     </head>
     <body>
        
-        <p>Student Id: <%=request.getAttribute("studentId")%> </p>
-        
+        <p>Student Id: ${studentId}</p>
+        <c:forEach var="x" items="${listStudent}">
+            ${x.name}
+        </c:forEach>
     </body>
 </html>
