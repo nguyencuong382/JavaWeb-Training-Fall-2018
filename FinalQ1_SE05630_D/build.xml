@@ -7,8 +7,8 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
-<project name="FinalQ1_SE05630" default="default" basedir=".">
-    <description>Builds, tests, and runs the project FinalQ1_SE05630.</description>
+<project name="FinalQ1_SE05630_D" default="default" basedir=".">
+    <description>Builds, tests, and runs the project FinalQ1_SE05630_D.</description>
     <import file="nbproject/build-impl.xml"/>
     <!--
 
